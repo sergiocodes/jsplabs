@@ -34,5 +34,6 @@ and open the template in the editor.
         <%= 
             funciones.Lab01.MaxNumber(request.getMethod(), request.getParameter("number_1"), request.getParameter("number_2"), request.getParameter("number_3"))
         %>
+    <button onclick="window.location.href = '../index.html';">Volver al inicio</button>
     </body>
 </html>

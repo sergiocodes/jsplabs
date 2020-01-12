@@ -33,5 +33,6 @@ and open the template in the editor.
         <%= 
             funciones.Lab01.ExpNumber(request.getMethod(), request.getParameter("base"), request.getParameter("exponente"))
         %>
+    <button onclick="window.location.href = '../index.html';">Volver al inicio</button>
     </body>
 </html>

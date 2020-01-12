@@ -29,5 +29,6 @@ and open the template in the editor.
             </form>
         </div>
         <%= funciones.Lab01.NameIterator(request.getMethod(), request.getParameter("firstname"), 30) %>
+    <button onclick="window.location.href = '../index.html';">Volver al inicio</button>
     </body>
 </html>

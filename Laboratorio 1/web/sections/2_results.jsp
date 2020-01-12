@@ -16,5 +16,6 @@
         <h2>Resultados</h2> 
         <h2>Tu nota es: 
         <%= funciones.Lab01.TestSolver(request.getParameter("answer_1"), request.getParameter("answer_2"), request.getParameter("answer_3")) %></h2>
+    <button onclick="window.location.href = '../index.html';">Volver al inicio</button>
     </body>
 </html>

@@ -33,5 +33,6 @@
 
             <button type="submit">Revisar cuestionario</button>  
         </form>
+    <button onclick="window.location.href = '../index.html';">Volver al inicio</button>
     </body>
 </html>
